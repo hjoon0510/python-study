@@ -1,0 +1,4 @@
+-make hello function
+
+def hello():
+print('Hello, world!') hello()
