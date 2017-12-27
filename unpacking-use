@@ -1,0 +1,53 @@
+-숫자 세 개를 각 줄에 출력하는 함수를 만들기
+>>> def print_numbers(a, b, c):
+...     print(a)
+...     print(b)
+...     print(c)
+...
+위의 함수 를 이용.
+>>> print_numbers(10, 20, 30)
+10
+20
+30
+
+
+
+>>> x = [10, 20, 30]
+>>> print_numbers(*x)
+10
+20
+30
+print_numbers에 10, 20, 30이 들어있는 리스트 x만 넣었는데도 숫자가 각 줄에 출력된다.
+즉, 리스트(튜플) 앞에 *를 붙이면 언패킹(unpacking)이 되어서 print_numbers(10, 20, 30)과 똑같은 동작이 된다.
+말 그대로 리스트의 포장을 푼다는 뜻이다.
+
+
+이제 숫자 여러 개를 받고, 숫자를 각 줄에 출력하는 함수만들기.
+>>> def print_numbers(*args):
+...     for arg in args:
+...         print(arg)
+...
+
+
+위의 함수사용
+>>> print_numbers(10)
+10
+>>> print_numbers(10, 20, 30, 40)
+10
+20
+30
+40
+
+
+개인 정보를 출력하는 함수를 만들기.
+>>> def personal_info(name, age, address):
+...     print('이름: ', name)
+...     print('나이: ', age)
+...     print('주소: ', address)
+...
+sep, end 키워드를 사용하면
+print(10, 20, 30, sep=':', end='')
+
+결과
+10:20:30
+를 볼수있다
