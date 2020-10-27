@@ -1,4 +1,4 @@
-a = int(input('숫자를 입력하세요: '))
+a = int(input('숫자를 여기 입력하세요: '))
 for i in range(a):
     for j in range(a - 1):
         if j < i:
