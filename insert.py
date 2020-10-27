@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 print('정보들을 데이타베이스의 테이블에 삽입합니다.')
 
-# Mysql Database: Insert Into....
+# Mysql (mariadb) Database: Insert Into....
 # @see 
 # https://www.tutorialspoint.com/python/python_database_access.htm
 # https://www.w3schools.com/python/python_mysql_insert.asp
