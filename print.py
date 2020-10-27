@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python
 
-a=5
+a=55
 print ("output:", a)
 print "output: %d" % a
